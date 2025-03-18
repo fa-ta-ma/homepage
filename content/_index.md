@@ -5,7 +5,7 @@ template = "index.html"
 
 # Willkommen
 
-Hir präsentiert sich dich [Fachschaftentagung Maschinenwesen][fatama]!
+Hier präsentiert sich dich [Fachschaftentagung Maschinenwesen][fatama]!
 
 Auf der Fachschaftentagung Maschinenwesen (FaTaMa) kommen Vertreter von
 Fachschaften aus ganz Deutschland, der Schweiz und Österreich zusammen, um
