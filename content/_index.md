@@ -38,11 +38,13 @@ Unternehmen, Forschungseinrichtungen oder Sehenswürdigkeiten.
 ## Aktuelle Tagung
 
 Die nächste FaTaMa wird vom 28.05.2025 bis 01.06.2025 an der
-[RWTH Aachen][aachen] stattfinden.
+[RWTH Aachen][aachen] stattfinden. Weitere Informationen sind auf der Seite zur
+[Tagung][aachen2025] zu finden.
 
 Falls ihr keine Anmeldung mehr verpassen wollt, dann tragt euch in unseren
 [Verteiler][newsletter] ein.
 
 [aachen]: https://www.rwth-aachen.de
+[aachen2025]: @/congresses/2025.md
 [fatama]: https://de.wikipedia.org/wiki/Fachschaftentagung_Maschinenbau
 [newsletter]: https://lists.fa-ta-ma.de/cgi-bin/mailman/listinfo/fachschaften-neu/

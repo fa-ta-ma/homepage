@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block content %}
+    <section>
+        <nav aria-label="breadcrumb">
+            <ul>
+                <li>
+                    <a href="{{ get_url(path='@/congresses/_index.md') }}" class="secondary">Tagungen</a>
+                </li>
+                <li>{{ page.title }}</li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        {{ page.content | safe }}
+    </section>
+{% endblock content %}
