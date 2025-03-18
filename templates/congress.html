@@ -12,6 +12,10 @@
         </nav>
     </section>
     <section>
-        {{ page.content | safe }}
+        {% if page.content %}
+            {{ page.content | safe }}
+        {% else %}
+            <em>Es sind keine Informationen vorhanden.</em>
+        {% endif %}
     </section>
 {% endblock content %}

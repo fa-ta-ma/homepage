@@ -2,11 +2,27 @@
 {% block title %}{{ section.title }}{% endblock %}
 {% block content %}
     {{ section.content | safe }}
-    <ul>
-        {% for page in section.pages %}
-            <li>
-                <a href="{{ page.permalink }}">{{ page.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Jahr</th>
+                <th scope="col">Ort</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for page in section.pages %}
+                {% set data = page.title | split(pat=' ') %}
+                <tr>
+                    <td>{{ data.1 }}</td>
+                    <td>
+                        {% if page.content %}
+                            <a href="{{ page.permalink }}">{{ data.0 }}</a>
+                        {% else %}
+                            {{ data.0 }}
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 {% endblock content %}
